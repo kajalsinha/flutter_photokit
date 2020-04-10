@@ -4,38 +4,38 @@ PODS:
     - Flutter
     - PromiseKit (~> 6.8)
     - SwiftProtobuf (~> 1.4)
-  - PromiseKit (6.8.4):
-    - PromiseKit/CorePromise (= 6.8.4)
-    - PromiseKit/Foundation (= 6.8.4)
-    - PromiseKit/UIKit (= 6.8.4)
-  - PromiseKit/CorePromise (6.8.4)
-  - PromiseKit/Foundation (6.8.4):
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.8.4):
+  - PromiseKit/UIKit (6.13.1):
     - PromiseKit/CorePromise
-  - SwiftProtobuf (1.5.0)
+  - SwiftProtobuf (1.8.0)
 
 DEPENDENCIES:
-  - Flutter (from `.symlinks/flutter/ios`)
+  - Flutter (from `Flutter`)
   - flutter_photokit (from `.symlinks/plugins/flutter_photokit/ios`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - PromiseKit
     - SwiftProtobuf
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: ".symlinks/flutter/ios"
+    :path: Flutter
   flutter_photokit:
     :path: ".symlinks/plugins/flutter_photokit/ios"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_photokit: a10767351b7a371cafbb4b7030aff6ddaae96a69
-  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
-  SwiftProtobuf: 241400280f912735c1e1b9fe675fdd2c6c4d42e2
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  SwiftProtobuf: 2cbd9409689b7df170d82a92a33443c8e3e14a70
 
-PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
 
 COCOAPODS: 1.8.4

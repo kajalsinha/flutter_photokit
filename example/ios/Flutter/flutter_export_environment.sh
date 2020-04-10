@@ -1,8 +1,12 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/Users/ncrocker/dev/flutter"
-export "FLUTTER_APPLICATION_PATH=/Users/ncrocker/dev/personal/flutter_photokit/example"
-export "FLUTTER_TARGET=/Users/ncrocker/dev/personal/flutter_photokit/example/lib/main.dart"
+export "FLUTTER_ROOT=/Users/kajalsinha/sdk/flutter"
+export "FLUTTER_APPLICATION_PATH=/Users/kajalsinha/go/src/github.com/kajalsinha/flutter_photokit/example"
+export "FLUTTER_TARGET=/Users/kajalsinha/go/src/github.com/kajalsinha/flutter_photokit/example/lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "SYMROOT=${SOURCE_ROOT}/../build/ios"
-export "FLUTTER_FRAMEWORK_DIR=/Users/ncrocker/dev/flutter/bin/cache/artifacts/engine/ios"
+export "OTHER_LDFLAGS=$(inherited) -framework Flutter"
+export "FLUTTER_FRAMEWORK_DIR=/Users/kajalsinha/sdk/flutter/bin/cache/artifacts/engine/ios"
+export "FLUTTER_BUILD_NAME=1.0.0"
+export "FLUTTER_BUILD_NUMBER=1"
+export "TRACK_WIDGET_CREATION=true"
